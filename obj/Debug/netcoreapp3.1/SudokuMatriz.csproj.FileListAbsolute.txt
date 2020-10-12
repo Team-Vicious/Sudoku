@@ -1,0 +1,13 @@
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.csprojAssemblyReference.cache
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.AssemblyInfoInputs.cache
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.AssemblyInfo.cs
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.csproj.CoreCompileInputs.cache
+C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.exe
+C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.deps.json
+C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.runtimeconfig.json
+C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.runtimeconfig.dev.json
+C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.dll
+C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.pdb
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.dll
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.pdb
+C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.genruntimeconfig.cache
