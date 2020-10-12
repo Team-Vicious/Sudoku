@@ -14,7 +14,7 @@ namespace SudokuMatriz
             //obj.insertar();
             obj.insertar();
             obj.mostrar();
-            //Console.Write("anda culiado");
+            
 
         }
 
