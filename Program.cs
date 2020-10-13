@@ -69,60 +69,60 @@ namespace SudokuMatriz
                     }
                     while (matriz[0, 3] != 6)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 4");
                         matriz[0, 3] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[0, 5] != 8)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 6");
                         matriz[0, 5] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[0, 6] != 9)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 7");
                         matriz[0, 6] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[0, 7] != 1)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 8");
                         matriz[0, 3] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[0, 8] != 2)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 9");
                         matriz[0, 8] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[1,1] != 7)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 11");
                         matriz[1,1] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[1,2] != 2)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 12");
                         matriz[1, 2] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[1, 6] != 3)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 16");
                         matriz[1, 6] = int.Parse(Console.ReadLine());
 
                     } while (matriz[1, 7] != 4)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 17");
                         matriz[1, 4] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[1, 8] != 8)
                     {
-                        Console.WriteLine("ingrese el numero para la celda 2");
+                        Console.WriteLine("ingrese el numero para la celda 18");
                         matriz[1, 8] = int.Parse(Console.ReadLine());
 
                     }
