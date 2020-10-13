@@ -88,7 +88,7 @@ namespace SudokuMatriz
                     while (matriz[0, 7] != 1)
                     {
                         Console.WriteLine("ingrese el numero para la celda 8");
-                        matriz[0, 3] = int.Parse(Console.ReadLine());
+                        matriz[0, 7] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[0, 8] != 2)
@@ -117,7 +117,7 @@ namespace SudokuMatriz
                     } while (matriz[1, 7] != 4)
                     {
                         Console.WriteLine("ingrese el numero para la celda 17");
-                        matriz[1, 4] = int.Parse(Console.ReadLine());
+                        matriz[1, 7] = int.Parse(Console.ReadLine());
 
                     }
                     while (matriz[1, 8] != 8)
