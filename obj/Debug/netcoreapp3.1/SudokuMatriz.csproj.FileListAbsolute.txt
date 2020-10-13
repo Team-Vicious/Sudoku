@@ -11,3 +11,16 @@ C:\Users\luciano\source\repos\SudokuMatriz\bin\Debug\netcoreapp3.1\SudokuMatriz.
 C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.dll
 C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.pdb
 C:\Users\luciano\source\repos\SudokuMatriz\obj\Debug\netcoreapp3.1\SudokuMatriz.genruntimeconfig.cache
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\bin\Debug\netcoreapp3.1\SudokuMatriz.exe
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\bin\Debug\netcoreapp3.1\SudokuMatriz.deps.json
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\bin\Debug\netcoreapp3.1\SudokuMatriz.runtimeconfig.json
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\bin\Debug\netcoreapp3.1\SudokuMatriz.runtimeconfig.dev.json
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\bin\Debug\netcoreapp3.1\SudokuMatriz.dll
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\bin\Debug\netcoreapp3.1\SudokuMatriz.pdb
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.csprojAssemblyReference.cache
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.AssemblyInfoInputs.cache
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.AssemblyInfo.cs
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.csproj.CoreCompileInputs.cache
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.dll
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.pdb
+E:\seva\UTN\TERCER CUATRIMESTRE\LABORATORIO 3\Proyecto Sudoku\obj\Debug\netcoreapp3.1\SudokuMatriz.genruntimeconfig.cache

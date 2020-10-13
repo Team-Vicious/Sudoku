@@ -9,127 +9,106 @@ namespace SudokuMatriz
         public static void Main(string[] args)
         {
 
-            Matriz obj = new Matriz();
+            int numeroJuego;
+            int[,] matriz = new int[9,9];
 
-            //obj.insertar();
-            obj.insertar();
-            obj.mostrar();
-            
+            Console.WriteLine("Ingrese el numero de juego");
+            numeroJuego = int.Parse(Console.ReadLine());
 
-        }
-
-    }
-
-    class Matriz
-    {
-        int[,] matriz = new int[9, 9];
-
-        public void mostrar()
-        {
-            for (int i = 0; i < 9; i++)
+            switch (numeroJuego)
             {
-                if (i % 3 == 0)
-                {
+
+                case 1:
+
+                    matriz[0,0]= 5; matriz[0,4]= 7; matriz[0,6]=9; matriz[1,0]= 6;
+                    matriz[1,3]= 1; matriz[1,4]= 9; matriz[1,6]= 6; matriz[1,7]= 2;
+                    matriz[1,8] = 7; matriz[2, 2] = 6; matriz[2, 8] = 9; matriz[3, 0] = 9;
+                    matriz[3, 2] = 3; matriz[3, 6] = 8; matriz[4, 3] = 4; matriz[4, 5] = 3;
+                    matriz[5, 2] = 8; matriz[5, 6] = 5; matriz[5, 8] = 2; matriz[6, 0] = 5;
+                    matriz[6, 6] = 2; matriz[7, 0] = 2; matriz[7, 1] = 9; matriz[7, 2] = 1;
+                    matriz[7, 4] = 4; matriz[7, 5] = 7; matriz[7, 8] = 8; matriz[8, 2] = 7;
+                    matriz[8, 4] = 1; matriz[8, 8] = 3;
+
+                   
+
+                    Console.WriteLine("La matriz 1 es:");
                     Console.WriteLine(" ");
-                }
 
-                for (int j = 0; j < 9; j++)
-                {
-                    if (j % 3 == 0 || j == 9)
+                    for (int filas =0; filas< 9; filas++)
                     {
-                        Console.Write(" ");
+                        if (filas % 3 == 0)
+                        {
+                            Console.WriteLine(" ");
+
+                        }
+                        for (int col =0; col<9; col++)
+                        {
+                            
+
+                            if (col % 3 == 0 || col == 9)
+                            {
+                                Console.Write(" ");
+
+                            }
+                            Console.Write("[" + matriz[filas, col] + "]");
+
+
+                        }
+                        Console.WriteLine(" ");
+
                     }
 
-                    Console.Write("[" + matriz[i, j] + "]");
+                    Console.WriteLine("A continución empiece a jugar");
+
                     
-                }
-                Console.WriteLine(" ");
-
-            }
-
-        }
-
-        public void llenar()
-        {
-            int num = 0;
-            for(int i = 0; i< 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    matriz[i, j] = num;
-                    num++;
-                }
-            }
-   
-        }
-
-        //verificar que el valor ingresado no este en la misma fila o columna
-        public Boolean verificar(int num,int f,int c)
-        {
-            // en caso de encontrar uno igual que retorne directamnte el true,sino al final
-            //retorna false(significa que no hay nungun numero en la fila o columna)
-
-            //x+
-            for (int i = c; i < 9; i++)
-            {
-                if (matriz[f,i] == num)
-                {
-                    return true;
-                }
-            }
-
-            //x-
-            for (int i =c; i >= 0; i--)
-            {
-                if (matriz[f, i] == num)
-                {
-                    return true;
-                }
-            }
-
-            //y+
-            for (int j = f; j >= 0; j--)
-            {
-                if (matriz[j, c] == num)
-                {
-                    return true;
-                }
-            }
-
-            //y-
-            for (int j = f; j < 9; j++)
-            {
-                if (matriz[j, c] == num)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
-
-        //tratar de insertar un valor, en caso de que no pasar
-        public void insertar() { 
-            
-            for (int i = 0; i < 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    int random;
-                    Random rnd = new Random();
-                    random = rnd.Next(9);
-
-                    if (verificar(random,i,j) == false)
+                  while(matriz[0, 1]!=3)
                     {
-                        matriz[i, j] = random;
+                        Console.WriteLine("ingrese el numero para la celda 1" );
+                    matriz[0, 1] = int.Parse(Console.ReadLine());
+
                     }
-                    //sino que pase y no genere numero en esa celda, tarea para el futuro :)
-                }
+                    while (matriz[0, 3] != 5)
+                    {
+                        Console.WriteLine("ingrese el numero para la celda 2");
+                        matriz[0, 3] = int.Parse(Console.ReadLine());
+
+                    }
+
+
+
+
+                        break;
+
+
+                case 2:
+
+
+                    matriz[0, 0] = 7; matriz[0, 4] = 5; matriz[0, 6] = 4; matriz[1, 0] = 4;
+                    matriz[1, 3] = 1; matriz[1, 4] = 9; matriz[1, 6] = 6; matriz[1, 7] = 2;
+                    matriz[1, 8] = 7; matriz[2, 2] = 6; matriz[2, 8] = 9; matriz[3, 0] = 9;
+                    matriz[3, 2] = 3; matriz[3, 6] = 8; matriz[4, 3] = 4; matriz[4, 5] = 3;
+                    matriz[5, 2] = 8; matriz[5, 6] = 5; matriz[5, 8] = 2; matriz[6, 0] = 5;
+                    matriz[6, 6] = 2; matriz[7, 0] = 2; matriz[7, 1] = 9; matriz[7, 2] = 1;
+                    matriz[7, 4] = 4; matriz[7, 5] = 7; matriz[7, 8] = 8; matriz[8, 2] = 7;
+                    matriz[8, 4] = 1; matriz[8, 8] = 5;
+
+                    break;
+
+                Default:
+                    Console.WriteLine("Ingerso un numero incorrecto");
+                    break;
+
             }
 
 
         }
+       
+
+
+
 
     }
-}
+    }
+
+
+
