@@ -1,0 +1,15 @@
+C:\Users\luciano\Documents\C#\SudokuInterfaz\bin\Debug\SudokuInterfaz.exe.config
+C:\Users\luciano\Documents\C#\SudokuInterfaz\bin\Debug\SudokuInterfaz.exe
+C:\Users\luciano\Documents\C#\SudokuInterfaz\bin\Debug\SudokuInterfaz.pdb
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.csprojAssemblyReference.cache
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\MainWindow.g.cs
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\App.g.cs
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz_MarkupCompile.cache
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz_MarkupCompile.lref
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\MainWindow.baml
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.g.resources
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.Properties.Resources.resources
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.csproj.GenerateResource.cache
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.csproj.CoreCompileInputs.cache
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.exe
+C:\Users\luciano\Documents\C#\SudokuInterfaz\obj\Debug\SudokuInterfaz.pdb
