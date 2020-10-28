@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\luciano\Desktop\SudokuInterfaz\obj\Debug\
+C:\Users\luciano\Desktop\SudokuInterfaz\obj\Release\
 SudokuInterfaz
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\luciano\Desktop\SudokuInterfaz\App.xaml
 11151548125
 
-8-307604131
+7534755236
 13-1505183044
 MainWindow.xaml;
 
-False
+True
 

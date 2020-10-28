@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SudokuInterfaz"
         mc:Ignorable="d"
-        Title="MainWindow" Height="514.629" Width="756.701" Background="Black">
+        Title="Sudoku" Height="514.629" Width="756.701" Background="Black">
     <Grid Margin="0,0,70,-110">
         <TextBox x:Name="t1" HorizontalAlignment="Left" Height="35" Margin="26,22,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="39" FontSize="22" FontWeight="Bold" TextAlignment="Center" TextChanged="TextBox_TextChanged" Background="White"/>
         <TextBox x:Name="t2" HorizontalAlignment="Left" Height="35" Margin="70,22,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="41" TextChanged="TextBox_TextChanged" FontSize="22" FontWeight="Bold" TextAlignment="Center"/>
@@ -88,7 +88,7 @@
         <TextBox x:Name="t79" HorizontalAlignment="Left" Height="35" Margin="382,421,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="39" FontSize="22" FontWeight="Bold" TextAlignment="Center"/>
         <TextBox x:Name="t80" HorizontalAlignment="Left" Height="35" Margin="426,421,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="41" TextChanged="TextBox_TextChanged" FontSize="22" FontWeight="Bold" TextAlignment="Center"/>
         <TextBox x:Name="t81" HorizontalAlignment="Left" Height="35" Margin="472,421,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="41" TextChanged="TextBox_TextChanged" FontSize="22" FontWeight="Bold" TextAlignment="Center"/>
-        <Button Content="Verificar" HorizontalAlignment="Left" Margin="581,22,-36,0" VerticalAlignment="Top" Width="134" Height="40" BorderBrush="#FF037EA3" Click="Button_Click_2"/>
+        <Button x:Name="verificar" Content="Verificar" HorizontalAlignment="Left" Margin="581,22,-36,0" VerticalAlignment="Top" Width="134" Height="40" BorderBrush="#FF037EA3" Click="Button_Click_2"/>
         <Button x:Name="viewResultado" Content="Mostrar resultado" HorizontalAlignment="Left" Margin="581,102,-36,0" VerticalAlignment="Top" Width="134" Height="40" BorderBrush="#FF037EA3" Click="Button_Click_1"/>
         <Button x:Name="iniciar" Content="iniciar juego" HorizontalAlignment="Left" Margin="581,257,-36,0" VerticalAlignment="Top" Width="134" Height="40" Click="Button_Click" BorderBrush="#FF037EA3"/>
         <Label Content="" HorizontalAlignment="Left" Margin="571,331,-52,0" VerticalAlignment="Top" Height="134" Width="160">

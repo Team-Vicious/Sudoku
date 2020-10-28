@@ -54,34 +54,52 @@ namespace SudokuInterfaz
             almacenar();
         }
 
-        int n = 0;
+        
         public void almacenar()
         {
-            //cargar los txt en los vectores
-            matriz.llenar();
+            //variables contador i,j
+            int n1 = 0;
+            int n2 = 0;
+
+            //inicia y genera los valores del la matriz
+            matriz.generarValInicial();
+           
+            matriz.generarNumeros();//p
+            matriz.igualar_vaciar();//matriz copia y random de 0
 
             //setea los valores de la matriz en lo textBox
             foreach (TextBox t in vec)
             {
-                if (matriz.vector[n].ToString().Equals("0"))
+                
+
+                //para poder recorrer la matriz
+                //t.Text = matriz.matSolucion[n1,n2].ToString();
+                
+                if (n2 == 9)
+                {
+                    n1++;
+                    n2 = 0;
+                }
+                if (matriz.mat[n1, n2].ToString().Equals("0"))
                 {
                     t.Text = "-";
                 }
                 else
                 {
-                    t.Text = matriz.vector[n].ToString();
+                    t.Text = matriz.mat[n1, n2].ToString();
                 }
 
-                
 
-                n++;
+
+
+                n2++;
             }
                 
         }
         
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
+
             
 
         }
@@ -98,15 +116,27 @@ namespace SudokuInterfaz
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            verificar.IsEnabled = false;
+            //variables contador i,j
+            int n1 = 0;
+            int n2 = 0;
+
             //MOSTRAR RESULTADO
             //mostrar resultado
 
-            int n = 0;
+            //int n = 0;
             //setea los valores de la matriz en lo textBox
             foreach (TextBox t in vec)
             {
-                t.Text = matriz.vectorsolucion[n].ToString();
-                n++;
+                if (n2 == 9)
+                {
+                    n1++;
+                    n2 = 0;
+                }
+
+                t.Text = matriz.matSolucion[n1, n2].ToString();
+
+                n2++;
                 
             }
 
@@ -119,16 +149,29 @@ namespace SudokuInterfaz
         
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if(matriz.mat==matriz.matSolucion){
+                    MessageBox.Show("Has ganado el juego!!!","WIN!");
+                    
+                }
+
             //VERIFICAR
-            int n = 0;
+            //int n = 0;
+            //variables contador i,j
+            int n1 = 0;
+            int n2 = 0;
             foreach (TextBox t in vec)
             {
-                
+                //"for"
+                if (n2 == 9)
+                {
+                    n1++;
+                    n2 = 0;
+                }
 
-                if(t.Text.Equals(matriz.vectorsolucion[n].ToString()))
+                if (t.Text.Equals(matriz.matSolucion[n1,n2].ToString()))
                 {
                     t.Background = Brushes.White;
-                    matriz.vector[n] = matriz.vectorsolucion[n];
+                    matriz.mat[n1,n2] = matriz.matSolucion[n1,n2];
                     
                 }
                 else
@@ -150,31 +193,42 @@ namespace SudokuInterfaz
                 }
 
                
-                n++;
+                n2++;
             }
             
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            int n = 0;
+            verificar.IsEnabled = true;
+            //variables contador i,j
+            int n1 = 0;
+            int n2 = 0;
+            
             //VOLVER
             //volver al estado del juego
+
             //setea los valores de la matriz en lo textBox
             foreach (TextBox t in vec)
             {
-                if (matriz.vector[n].ToString().Equals("0"))
+                if (n2 == 9)
+                {
+                    n1++;
+                    n2 = 0;
+                }
+
+                if (matriz.mat[n1,n2].ToString().Equals("0"))
                 {
                     t.Text = "-";
                 }
                 else
                 {
-                    t.Text = matriz.vector[n].ToString();
+                    t.Text = matriz.mat[n1,n2].ToString();
                 }
 
                 
 
-                n++;
+                n2++;
             }
             viewResultado.IsEnabled = true;
             volver.IsEnabled = false;
